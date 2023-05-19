@@ -56,7 +56,7 @@ function Todo({
               onDelete={() => handleDeleteTodo(index)}
             >
               <>
-                <span className="font-bold">{todo.description}</span>
+                <span className="font-bold">{todo.description}</span>&nbsp;
                 {todo.date && formatDate(todo.date)}
               </>
             </Chip>
